@@ -159,6 +159,9 @@ button[type=button] {
           transform: translateY(-50%);
   cursor: pointer;
 }
+button[type=button] .visibility {
+  display: none;
+}
 
 .for_mobile {
   cursor: pointer;

@@ -7,6 +7,9 @@ button[type="button"]{
   top:50%;
   transform: translateY(-50%);
   cursor: pointer;
+  .visibility{
+    display: none;
+  }
 }
 .for_mobile{
   cursor: pointer;
