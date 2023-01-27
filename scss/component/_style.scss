@@ -89,62 +89,8 @@
     line-height: 1.5;
   }
 }
-button[type="button"]{
-  position: absolute;
-  height: 24px;
-  background-color: transparent;
-  border:none;
-  right:0%;
-  top:50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-.for_mobile{
-  cursor: pointer;
-  display: block;
-  width: 100%;
-  margin-bottom: 24px;
-  margin-top: 24px;
-  color:$color-text-button;
-  border:none;
-  padding-bottom: 14px;
-  padding-top: 14px;
-  border-radius: 20px;
-  align-items: center;
-  line-height: 1.37;
-  @media screen and (min-width:480px){
-    display: none;
-  }
-  &:disabled{
-    background: $button-dis;
-  }
-  &:enabled{
-    background: $button-en;
-  }
-}
-.for_laptop{
-  display: none;
-  @media screen and (min-width:480px) {
-    cursor: pointer;
-    display: block;
-    margin-bottom: 24px;
-    margin-top: 24px;
-    width: 100%;
-    color:$color-text-button;
-    border:none;
-    padding-bottom: 14px;
-    padding-top: 14px;
-    border-radius: 20px;
-    align-items: center;
-    line-height: 1.37;
-    &:disabled{
-      background: $button-dis;
-    }
-    &:enabled{
-      background: $button-en;
-    }
-  }
-}
+
+
 input[type="checkbox"]{
   appearance: none;
   -moz-appearance: none;
