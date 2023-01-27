@@ -33,6 +33,7 @@
   }
   .create_one{
     text-align: center;
+    font-family: 'Microsoft Sans Serif'
   }
 
   b{
@@ -47,6 +48,7 @@
     line-height: 1.1;
     color: $color-link;
     text-decoration: none;
+    font-family: 'Microsoft Sans Serif';
     cursor: pointer;
     &:focus{
       outline:none;
@@ -126,6 +128,10 @@ input[type="checkbox"]{
       transform: translateY(-50%);
       border: 2px solid $border-check;
       border-radius: 3px;
+      @media screen and (min-width:480px) {
+        width: 16px;
+      height: 16px;
+      }
     }
   }
 }

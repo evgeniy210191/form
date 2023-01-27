@@ -264,6 +264,7 @@ button[type=button] {
 }
 .container .create_one {
   text-align: center;
+  font-family: "Microsoft Sans Serif";
 }
 .container b {
   display: block;
@@ -277,6 +278,7 @@ button[type=button] {
   line-height: 1.1;
   color: #14A2E2;
   text-decoration: none;
+  font-family: "Microsoft Sans Serif";
   cursor: pointer;
 }
 .container a:focus {
@@ -357,11 +359,17 @@ input[type=checkbox]:checked + label:before {
   content: "";
   position: absolute;
   width: 24px;
-  height: 25px;
+  height: 24px;
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   border: 2px solid #E7E7E7;
   border-radius: 3px;
+}
+@media screen and (min-width: 480px) {
+  .about_password label:before {
+    width: 16px;
+    height: 16px;
+  }
 }/*# sourceMappingURL=main.css.map */
