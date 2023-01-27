@@ -352,6 +352,7 @@ input[type=checkbox]:checked + label:before {
 .about_password label {
   padding-left: 32px;
   position: relative;
+  font-family: "Microsoft Sans Serif";
 }
 .about_password label:before {
   content: "";
