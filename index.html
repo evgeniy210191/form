@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="scss/main.scss"> -->
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <b>Sign in</b>
+      <form>
+        <div class="form_mail">
+          <input name="email" type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <p id="error_mail"></p>
+        <div class="form_password">
+          <input name="password" type="password" minlength="12" id="password">
+          <label for="password">Password</label>
+          <button type="button">
+            <svg width="24" height="24">
+              <use xlink:href="./svg/sprite.svg#hidden" class="hidden"></use>
+              <use xlink:href="./svg/sprite.svg#visibility" class="visibility"></use>
+            </svg>
+          </button>
+        </div>
+        <p id="error_pass"></p>
+        <div class="about_password">
+          <input name="checkbox" type="checkbox" id="check">
+          <label for="check">Remember Me</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button enabled class="for_mobile" type="submit">Sign in</button>
+        <button enabled class="for_laptop" type="submit">Create Account</button>
+        <p class="create_one">No account? <a href="#">Create one</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
