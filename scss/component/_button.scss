@@ -24,10 +24,10 @@ button[type="button"]{
   @media screen and (min-width:480px){
     display: none;
   }
-  &:disabled{
+  &[disabled="false"]{
     background: $button-dis;
   }
-  &:enabled{
+  &[disabled="true"]{
     background: $button-en;
   }
 }

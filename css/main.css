@@ -181,10 +181,10 @@ button[type=button] {
     display: none;
   }
 }
-.for_mobile:disabled {
+.for_mobile[disabled=false] {
   background: rgba(59, 80, 108, 0.5);
 }
-.for_mobile:enabled {
+.for_mobile[disabled=true] {
   background: #3B506C;
 }
 
